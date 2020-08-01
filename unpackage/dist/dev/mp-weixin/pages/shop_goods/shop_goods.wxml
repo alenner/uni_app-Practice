@@ -1,0 +1,1 @@
+<view class="content"><goods-list vue-id="043b8ec0-1" goodsList="{{goodsList}}" bind:__l="__l"></goods-list><block wx:if="{{onGoods}}"><view class="overText">---亲，没有更多的商品了---</view></block></view>

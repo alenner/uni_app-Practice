@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/mianPage/shopcar",
+    "pages/index/index",
+    "pages/mianPage/message",
+    "pages/mianPage/indivisual",
+    "pages/shop_goods/shop_goods",
+    "pages/call_us/call-us",
+    "pages/pics/pics",
+    "pages/study_video/study_video"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "XX商城",
+    "navigationBarBackgroundColor": "#fb2c19",
+    "backgroundColor": "#ff5a5a",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/TabIcon/home.png",
+        "selectedIconPath": "static/TabIcon/home-select.png"
+      },
+      {
+        "text": "动态",
+        "pagePath": "pages/mianPage/message",
+        "iconPath": "static/TabIcon/dongtai.png",
+        "selectedIconPath": "static/TabIcon/dongtai-select.png"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/mianPage/shopcar",
+        "iconPath": "static/TabIcon/cart-Empty.png",
+        "selectedIconPath": "static/TabIcon/cart-Empty-select.png"
+      },
+      {
+        "text": "个人",
+        "pagePath": "pages/mianPage/indivisual",
+        "iconPath": "static/TabIcon/user-center.png",
+        "selectedIconPath": "static/TabIcon/user-center-select.png"
+      }
+    ],
+    "selectedColor": "#fb2c19",
+    "color": "#C0C0C0",
+    "height": "100rpx"
+  },
+  "usingComponents": {}
+}

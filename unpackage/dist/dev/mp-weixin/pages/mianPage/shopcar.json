@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "wm-number-box": "/components/wm-numberBox/wm-number-box"
+  }
+}
