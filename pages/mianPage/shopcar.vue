@@ -46,7 +46,7 @@
 				<view class="totalPrice">
 					<text>总价</text><text>￥{{ totalPrice.toFixed(2) }}</text>
 				</view>
-				<button type="default" class="handleBtn1">结算</button>
+				<button type="default" class="handleBtn1" @click="goodsSettle">结算</button>
 			</view>
 			<view class="hendleGoods" v-else>
 				<checkbox class="checkAll" :checked="JSON.stringify(goodsSelected).indexOf(JSON.stringify(shopItem)) !== -1 && shopItem.length !== 0" @click="SelectAllvendor">
@@ -193,6 +193,10 @@
 				})
 				this.totalPrice = 0
 				this.goodsSelected = []
+			},
+			// 打印结算信息
+			goodsSettle () {
+				console.log(this.goodsSelected,this.totalPrice)
 			}
 		}
 	}	
