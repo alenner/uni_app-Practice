@@ -25,7 +25,7 @@
 							<image :src="goodsItem.thumb"></image>
 							<view class="goodsContent">
 								<text>{{ goodsItem.name }}...</text>
-								<text>{{ goodsItem.details }}</text>
+								<text class="goodsDisctript">{{ goodsItem.details }}</text>
 							</view>
 						</view>
 						<view class="chioceNum">
@@ -263,7 +263,7 @@
 							width: 380rpx;
 							padding: 10rpx 10rpx;
 						}
-						:nth-child(2) {
+						.goodsDisctript {
 							background-color: #efefef;
 							color: #8a8a8a;
 							border-radius: 10rpx;

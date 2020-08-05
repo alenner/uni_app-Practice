@@ -35,8 +35,8 @@
     "globalStyle" : {
         "navigationBarTextStyle" : "white",
         "navigationBarTitleText" : "XX商城",
-        "navigationBarBackgroundColor" : "#fb2c19",
-        "backgroundColor" : "#ff5a5a",
+        "navigationBarBackgroundColor" : "#be0000",
+        "backgroundColor" : "#be0000",
         "backgroundTextStyle" : "light"
     },
     "tabBar" : {

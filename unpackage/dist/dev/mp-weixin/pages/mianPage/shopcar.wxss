@@ -93,7 +93,7 @@ checkbox {
   width: 380rpx;
   padding: 10rpx 10rpx;
 }
-.shopCarList .shopVendor .goodsList .goodsItem .goodsContent :nth-child(2) {
+.shopCarList .shopVendor .goodsList .goodsItem .goodsContent .goodsDisctript {
   background-color: #efefef;
   color: #8a8a8a;
   border-radius: 10rpx;
